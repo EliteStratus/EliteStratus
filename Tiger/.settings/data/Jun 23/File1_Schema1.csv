@@ -1,0 +1,7 @@
+﻿ID,Site,MRP,Price,Shipping,Seller,Promo
+1,MoonBoy,//span[@id='mrp_spn'],//span[@id='finl_spn'],//div[@class='shipng_spn'],//a[@id='goslr'],NA
+2,PayTM,//span[@class='_2CkE _30zs'],//span[@class='_1d5g'],,//div[@class='_1REL']/a,//div[@class='_2nIh']
+3,ShopClues,//span[@id='sec_list_price_'],//span[@class='f_price'],//li[@id='shippingcharge'],//div[@class='sllr_info']/h3,//span[@id='promo_txt']
+4,Amazon,//td[@class='a-span12 a-color-secondary a-size-base'],//span[@id='priceblock_saleprice'],//span[@id='price-shipping-message']/b,//div[@id='merchant-info']/a[1],
+5,SnapDeals,//div[@class='pdpCutPrice'],//span[@class='pdp-final-price'],,//a[@class='pdp-e-seller-info-name reset-margin fnt-14'],//div[@class='genericOfferClass electronics']
+6,Flipkart,//div[@class='_3auQ3N _16fZeb'],//div[@class='_1vC4OE _37U4_g'],,//div[@id='sellerName']/a/span/span[2],//li[@class='_2-n-Lg col-4-5 col']

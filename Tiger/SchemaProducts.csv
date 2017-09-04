@@ -1,0 +1,15 @@
+SITE,PAGINATION,MAXPAGES,SLEEP,PRECLICK,NEXT,NEXT_CLICK,PAGE_OFFSET,DISPLAY,ROWS,COLS,ITEMS,URL
+PAYTMMALL,SCROLL,300,2500,,,,1000,MATRIX,//div[@class='_1fje'],//div[@class='_1fje'][%ROW%]/div[@class='_2i1r'],,//div[@class='_1fje'][%ROW%]/div[@class='_2i1r'][%COL%]/a/@href
+PAYTM,SCROLL,10,0,,,,250,MATRIX,//div[@id='productCat']/div/div[1]/div[@class='GridItems'],//div[@id='productCat']/div/div,,//div[@id='productCat']/div/div[%COL%]/div[@class='GridItems'][%ROW%]//a/@href
+SHOPCLUES,SHOWMORE,1,0,,//a[@id='moreProduct'],,,MATRIX,//div[@id='product_list']/div[@class='row'],//div[@id='product_list']/div[@class='row'][%ROW%]/div[@class='column col3'],,//div[@id='product_list']/div[@class='row'][%ROW%]/div[@class='column col3'][%COL%]/a/@href
+SHOPCLUES_SELLER,PAGE,10,0,,//a[@id='moreProduct'],,,LIST,,,//div[@id='product_list']/div[@class='row'][1]/div[@class='column col3'],//div[@id='product_list']/div[@class='row'][1]/div[@class='column col3'][%ITEM%]/a[2]/@href
+AMAZON,PAGE,2,1000,,//a[@id='pagnNextLink'],,,LIST,,,//div[@id='resultsCol']//ul[@id='s-results-list-atf']/li,"//div[@id='resultsCol']//ul[@id='s-results-list-atf']/li[%ITEM%]//div[contains(@class, 'spacing-base')]//a[contains(@class, 'a-link-normal')]/@href"
+AMAZON_SELLER,PREPAGE,7,5000,//li[@id='products-heading']/a,"//ul[@class='a-pagination']//li/a[contains(text(), 'Next')]",,,MATRIX,//div[@id='products-list']/div,//div[@id='products-list']/div[%ROW%]/div,,//div[@id='products-list']/div[%ROW%]/div[%COL%]//div[@class='a-row product-image']//a/@href
+SNAPDEAL,PAGESCROLL,1,0,,//div[@id='see-more-products'],,2200,MATRIX,//div[@id='products']/section,//div[@id='products']/section[%ROW%]/div,,"//div[@id='products']/section[%ROW%]/div[%COL%]//div[contains(@class, 'tuple')]/a/@href"
+FLIPKART,PAGE,4,1000,,//div[@class='_1JKxvj _31rYcN']//li[%PAGE%]/a,,,LIST,,,//div[@class='_3T_wwx']/div,//div[@class='_3T_wwx']/div[%ITEM%]/a/@href
+FLIPKART_SELLER,PAGE,5,4000,,//div[@class='_1JKxvj _31rYcN']//li[%PAGE%]/a,,,MATRIX,//div[@class='_2SxMvQ']/div,//div[@class='_2SxMvQ']/div[%ROW%]/div,,//div[@class='_2SxMvQ']/div[%ROW%]/div[%COL%]//a[@class='Zhf2z-']/@href
+ZOYA,PAGE,5,0,,//li[@class='next']/a,,,LIST,,, //div[@class='grid-container']/ul/li, //div[@class='grid-container']/ul/li[%ITEM%]/div/a/@href
+FLINTSTOP,SCROLL,100,0,,,,100,LIST,,,//article[@id='allProducts']/section,//article[@id='allProducts']/section[%ITEM%]/a/@href
+SKYBAGS,PAGE,1,3000,,//div[@class='toolbar-bottom']//a[@class='next i-next'],,,LIST,,,//ul[@class='products-grid row list-2col-4']/li,//ul[@class='products-grid row list-2col-4']/li[%ITEM%]/div/div/a/@href
+CRAFTSVILLA,PAGE,1,2000,,//li[@id='nextPage']/a,CLICK,,LIST,,,//div[@id='our-products']//div[@class='product-img'],//div[@id='our-products']//div[%ITEM%]//div[@class='product-img']/a/@href
+KRAFTLY,SINGLELOAD,2,2000,,,,1000,LIST,,,//div[@id='type_options']//div[@class='module']/meta/@content,//div[@id='type_options']/div[%ITEM%]/div[@class='module']/meta/@content
